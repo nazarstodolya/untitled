@@ -1,0 +1,60 @@
+body {
+    margin: 50px;
+}
+.target {
+    background: orange;
+    height: 300px;
+    width: 300px;
+    box-sizing: border-box;
+    padding: 105px;
+    box-shadow: black 35px 35px;
+}
+.target2 {
+    margin-top: 80px;
+    background: orange;
+    height: 300px;
+    width: 300px;
+    box-sizing: border-box;
+    padding: 105px;
+    box-shadow: black 35px 35px 10px;
+}
+.target3 {
+    margin-top: 80px;
+    margin-bottom: 100px;
+    background: orange;
+    height: 300px;
+    width: 300px;
+    box-sizing: border-box;
+    padding: 105px;
+    box-shadow: black 40px 40px 12px 15px;
+}
+.target4 {
+    margin-top: 80px;
+    margin-bottom: 100px;
+    background: orange;
+    height: 300px;
+    width: 300px;
+    box-sizing: border-box;
+    padding: 105px;
+    box-shadow: gray 40px 40px 12px 15px;
+}
+.target5 {
+    margin-top: 80px;
+    background: orange;
+    height: 300px;
+    width: 300px;
+    box-sizing: border-box;
+    padding: 105px;
+    box-shadow: black 35px 35px 15px 10px;
+    border-radius: 15px;
+}
+.target6 {
+    margin-top: 100px;
+    background: orange;
+    height: 300px;
+    width: 300px;
+    box-sizing: border-box;
+    padding: 105px;
+    box-shadow: gray 35px 35px 10px;
+    border-radius: 15px;
+}
