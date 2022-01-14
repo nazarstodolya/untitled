@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-size: xxx-large;
+}
+.target {
+    background: #8f1d1d;
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-left: 30px;
+    height: 120px;
+    padding: 0;
+}
+.target1 {
+    background: #c7bfbf;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 30px;
+    padding: 70px;
+}
+.target2 {
+    background: #7899d5;
+    margin-right: 40px;
+    margin-left: 30px;
+    padding: 100px 100px 100px 0;
+}
+.target3 {
+    background: #62d062;
+    height: 550px;
+    width: 550px;
+    margin-left: 30px;
+}
+.target4 {
+    background: #886dc7;
+    height: 550px;
+    width: 550px;
+    margin-left: 30px;
+    border-radius: 60px;
+}
