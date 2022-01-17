@@ -1,0 +1,43 @@
+#main_block {
+    background: silver;
+}
+#second_block {
+
+}
+.top_block {
+    box-sizing: border-box;
+    width: 800px;
+    height: 150px;
+    background: orange;
+    font-size: 50px;
+    padding-top: 50px;
+    margin-left: 10px;
+}
+.left_block {
+    box-sizing: border-box;
+    width: 150px;
+    height: 500px;
+    background: red;
+    font-size: 40px;
+    padding-top: 180px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.right_1 {
+    box-sizing: border-box;
+    width: 610px;
+    height: 210px;
+    background: yellow;
+    font-size: 40px;
+    padding-top: 70px;
+
+}
+.right_2 {
+    box-sizing: border-box;
+    width: 610px;
+    height: 260px;
+    background: cornflowerblue;
+    font-size: 40px;
+    padding-top: 100px;
+    margin-top: 30px;
+}
