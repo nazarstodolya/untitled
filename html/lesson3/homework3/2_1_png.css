@@ -3,9 +3,20 @@
     display: flex;
     flex-direction: column;
 }
+#first_block {
+    display: flex;
+    background: #ff55a7;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+#second_block {
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
 .top_block {
     box-sizing: border-box;
-    width: 800px;
+    width: 805px;
     height: 150px;
     background: orange;
     font-size: 50px;
@@ -14,29 +25,35 @@
 }
 .red_block {
     box-sizing: border-box;
-    width: 150px;
+    width: 200px;
     height: 500px;
     background: red;
     font-size: 40px;
-    padding-top: 180px;
-    margin-top: 30px;
-    margin-left: 10px;
+    padding-top: 200px;
 }
 .yellow {
     box-sizing: border-box;
-    width: 600px;
-    height: 200px;
+    width: 575px;
+    height: 235px;
     background: yellow;
     font-size: 40px;
     padding-top: 80px;
-    margin-top: 30px;
 }
 .blue {
     box-sizing: border-box;
-    width: 600px;
-    height: 200px;
+    width: 575px;
+    height: 235px;
     background: cornflowerblue;
     font-size: 40px;
     padding-top: 80px;
     margin-top: 30px;
+}
+.black {
+    box-sizing: border-box;
+    width: 805px;
+    height: 150px;
+    background: black;
+    font-size: 50px;
+    padding-top: 50px;
+    margin-left: 10px;
 }
