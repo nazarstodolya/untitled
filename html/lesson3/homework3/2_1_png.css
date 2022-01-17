@@ -1,8 +1,7 @@
 #main_block {
     background: silver;
-}
-#second_block {
-
+    display: flex;
+    flex-direction: column;
 }
 .top_block {
     box-sizing: border-box;
@@ -13,7 +12,7 @@
     padding-top: 50px;
     margin-left: 10px;
 }
-.left_block {
+.red_block {
     box-sizing: border-box;
     width: 150px;
     height: 500px;
@@ -23,21 +22,21 @@
     margin-top: 30px;
     margin-left: 10px;
 }
-.right_1 {
+.yellow {
     box-sizing: border-box;
-    width: 610px;
-    height: 210px;
+    width: 600px;
+    height: 200px;
     background: yellow;
     font-size: 40px;
-    padding-top: 70px;
-
+    padding-top: 80px;
+    margin-top: 30px;
 }
-.right_2 {
+.blue {
     box-sizing: border-box;
-    width: 610px;
-    height: 260px;
+    width: 600px;
+    height: 200px;
     background: cornflowerblue;
     font-size: 40px;
-    padding-top: 100px;
+    padding-top: 80px;
     margin-top: 30px;
 }
