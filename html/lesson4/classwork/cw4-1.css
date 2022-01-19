@@ -16,6 +16,25 @@
 #bottom {
     display: flex;
 }
+#top_line {
+    display: flex;
+    justify-content: center;
+}
+.first_line {
+    border-radius: 10px;
+    width: 180px;
+    height: 15px;
+    background: darkblue;
+    margin-top: 30px;
+}
+.second_line {
+    border-radius: 10px;
+    width: 100px;
+    height: 15px;
+    background: darkblue;
+    margin-top: 30px;
+    margin-left: 30px;
+}
 .first_block {
     width: 250px;
     height: 250px;
@@ -130,7 +149,7 @@
     border: solid cornflowerblue;
     display: flex;
     width: 500px;
-    height: 500px;
+    height: 400px;
     background: #262665;
     margin-top: 30px;
 }
