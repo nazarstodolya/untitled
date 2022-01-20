@@ -1,9 +1,8 @@
 #main_block {
     width: 1200px;
-    height: 1040px;
     background: silver;
-    flex-wrap: wrap;
     display: flex;
+    flex-wrap: wrap;
 }
 #a_block {
     width: 1200px;
@@ -79,6 +78,45 @@
         border-radius: 50px;
         width: 800px;
         height: 300px;
+        margin-left: 0;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+
+    #a_block {
+        border-radius: 50px;
+        height: 200px;
+        width: 600px;
+    }
+    .b_block {
+        border-radius: 50px;
+        height: 200px;
+        width: 600px;
+    }
+    .c_block {
+        border-radius: 50px;
+        width: 150px;
+        height: 150px;
+    }
+    .d_block {
+        border-radius: 50px;
+        width: 150px;
+        height: 150px;
+    }
+    .e_block {
+        border-radius: 50px;
+        width: 150px;
+        height: 150px;
+    }
+    #cde_block {
+        justify-content: left;
+        margin-left: 50px;
+
+    }
+    #f_block {
+        border-radius: 50px;
+        width: 600px;
+        height: 200px;
         margin-left: 0;
     }
 }
