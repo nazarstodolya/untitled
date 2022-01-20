@@ -1,0 +1,84 @@
+#main_block {
+    width: 1200px;
+    height: 1040px;
+    background: silver;
+    flex-wrap: wrap;
+    display: flex;
+}
+#a_block {
+    width: 1200px;
+    height: 350px;
+    background: #262665;
+}
+#cde_block {
+    display: flex;
+    margin-top: 20px;
+    width: 800px;
+    background: silver;
+}
+.b_block {
+    margin-top: 20px;
+    width: 800px;
+    height: 350px;
+    background: blue;
+}
+#cde_block {
+    justify-content: center;
+}
+.c_block {
+    width: 300px;
+    height: 300px;
+    background: dodgerblue;
+}
+.d_block {
+    margin-left: 20px;
+    width: 300px;
+    height: 300px;
+    background: #262665;
+}
+.e_block {
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    background: darkblue;
+}
+#f_block {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 380px;
+    height: 670px;
+    background: #ec1313;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    #a_block {
+        border-radius: 50px;
+        height: 300px;
+        width: 800px;
+    }
+    .b_block {
+        border-radius: 50px;
+        width: 800px;
+        height: 300px;
+    }
+    .c_block {
+        border-radius: 50px;
+        width: 200px;
+        height: 200px;
+    }
+    .d_block {
+        border-radius: 50px;
+        width: 200px;
+        height: 200px;
+    }
+    .e_block {
+        border-radius: 50px;
+        width: 200px;
+        height: 200px;
+    }
+    #f_block {
+        border-radius: 50px;
+        width: 800px;
+        height: 300px;
+        margin-left: 0;
+    }
+}
