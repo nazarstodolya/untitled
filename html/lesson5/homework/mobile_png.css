@@ -1,0 +1,57 @@
+#body {
+    width: 770px;
+    height: 1100px;
+    background: silver;
+    text-align: center;
+    font-size: 25px;
+}
+#logohead {
+    display: flex;
+}
+.logo {
+    width: 150px;
+    height: 100px;
+    background: darkslategray;
+    box-sizing: border-box;
+    padding-top: 30px;
+}
+.header {
+    width: 600px;
+    height: 100px;
+    background: darkslategray;
+    box-sizing: border-box;
+    padding-top: 30px;
+    margin-left: 15px;
+}
+.nav {
+    width: 150px;
+    height: 600px;
+    background: darkslategray;
+    margin-top: 15px;
+    padding-top: 275px;
+    box-sizing: border-box;
+}
+.store {
+    width: 150px;
+    height: 100px;
+    background: darkslategray;
+    margin-top: 15px;
+    box-sizing: border-box;
+    padding-top: 35px;
+}
+.tools {
+    width: 150px;
+    height: 100px;
+    background: darkslategray;
+    margin-top: 15px;
+    box-sizing: border-box;
+    padding-top: 35px;
+}
+.footer {
+    width: 770px;
+    height: 140px;
+    background: darkslategray;
+    box-sizing: border-box;
+    margin-top: 15px;
+    padding-top: 50px;
+}
