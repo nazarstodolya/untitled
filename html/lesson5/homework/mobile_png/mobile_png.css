@@ -1,27 +1,31 @@
-#body {
-    width: 770px;
-    height: 1100px;
-    background: silver;
-    text-align: center;
-    font-size: 25px;
-}
 #logohead {
+    color: white;
+    font-size: 25px;
+    text-align: center;
     display: flex;
+    box-sizing: border-box;
 }
 .logo {
     width: 150px;
     height: 100px;
     background: darkslategray;
-    box-sizing: border-box;
     padding-top: 30px;
 }
 .header {
     width: 600px;
     height: 100px;
     background: darkslategray;
-    box-sizing: border-box;
     padding-top: 30px;
     margin-left: 15px;
+}
+#body {
+    display: flex;
+    color: white;
+    width: 765px;
+    height: 845px;
+    background: white;
+    text-align: center;
+    font-size: 25px;
 }
 .nav {
     width: 150px;
@@ -47,6 +51,42 @@
     box-sizing: border-box;
     padding-top: 35px;
 }
+.bath {
+    width: 350px;
+    height: 200px;
+    background: darkslategray;
+    margin-top: 15px;
+    box-sizing: border-box;
+    padding-top: 75px;
+    margin-left: 15px;
+}
+.types {
+    width: 350px;
+    height: 615px;
+    background: darkslategray;
+    margin-top: 15px;
+    margin-left: 15px;
+    box-sizing: border-box;
+    padding-top: 300px;
+}
+.ad {
+    width: 235px;
+    height: 200px;
+    background: darkslategray;
+    margin-top: 15px;
+    margin-left: 15px;
+    box-sizing: border-box;
+    padding-top: 75px;
+}
+.related {
+    width: 235px;
+    height: 615px;
+    background: darkslategray;
+    margin-top: 15px;
+    margin-left: 15px;
+    box-sizing: border-box;
+    padding-top: 300px;
+}
 .footer {
     width: 770px;
     height: 140px;
@@ -54,4 +94,36 @@
     box-sizing: border-box;
     margin-top: 15px;
     padding-top: 50px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+@media screen and (min-width: 0) and (max-width: 576px) {
+    #logohead {
+        font-size: 15px;
+    }
+    .logo {
+        width: 75px;
+        height: 75px;
+        box-sizing: border-box;
+    }
+    .header {
+        width: 250px;
+        height: 75px;
+        margin-left: 1px;
+        box-sizing: border-box;
+    }
+    #body {
+        display: flex;
+        font-size: 15px;
+        flex-direction: column;
+    }
+    .nav {
+        color: white;
+        padding-top: 25px;
+        margin-top: 1px;
+        width: 326px;
+        height: 75px;
+        box-sizing: border-box;
+    }
 }

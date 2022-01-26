@@ -1,0 +1,220 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+.header {
+    height: 1000px;
+}
+.nvg_menu_item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0B2330;
+    margin-right: 10px;
+}
+.top {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.nvg_menu {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.fa-angle-down {
+    margin-left: 10px;
+    margin-right: 50px;
+}
+.buttons {
+    margin-left: 100px;
+    column-gap: 24px;
+    display: flex;
+    cursor: pointer;
+}
+.nvg_menu_item__sprig {
+    margin-right: 50px;
+}
+.nvg_menu_item__sprig:hover, .nvg_menu_item__product:hover, .nvg_menu_item__customers:hover, .nvg_menu_item__resources:hover, .nvg_menu_item__plans:hover  {
+    text-shadow: -1px -3px 15px rgba(0,0,0,0.59)
+}
+.sign:hover, .talk:hover {
+    text-shadow: -1px -3px 15px rgba(0,0,0,0.59)
+}
+.start:hover {
+    box-shadow: -1px 3px 10px 3px rgba(0,0,0,0.47);
+    -webkit-box-shadow: -1px 3px 10px 3px rgba(0,0,0,0.47);
+    -moz-box-shadow: -1px 3px 10px 3px rgba(0,0,0,0.47);
+}
+.start {
+    height: 50px;
+    width: 163px;
+    border-radius: 4px;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+.sign, .talk {
+    padding-top: 15px;
+}
+.full_content {
+    display: flex;
+    justify-content: space-between;
+}
+.content_image {
+    position: relative;
+    margin-top: 200px;
+    margin-right: 100px;
+    width: 608px;
+    height: 541px;
+}
+.orange_theme {
+    margin-top: 14px;
+    margin-left: 730px;
+    width: 600px;
+    height: 886px;
+    background: orange;
+    position: absolute;
+}
+.header_title {
+    font-size: 60px;
+    line-height: 64px;
+    margin-top: 170px;
+    margin-bottom: 32px;
+    margin-left: 147px;
+    width: 390px;
+    height: 250px;
+}
+.text {
+    font-size: 22px;
+    line-height: 32px;
+    padding-left: 147px;
+    height: 96px;
+    width: 435px;
+}
+.start_bottom {
+    margin-left: 147px;
+    width: 163px;
+    height: 54px;
+    background: orange;
+    box-sizing: border-box;
+    font-size: 15px;
+    line-height: 24px;
+    border: 1px solid   orange;
+    border-radius: 5px;
+}
+.start_bottom:hover, .talk_bottom:hover {
+    box-shadow: -1px 3px 10px 3px rgba(0,0,0,0.47);
+    -webkit-box-shadow: -1px 3px 10px 3px rgba(0,0,0,0.47);
+    -moz-box-shadow: -1px 3px 10px 3px rgba(0,0,0,0.47);
+}
+.talk_bottom {
+    width: 163px;
+    height: 54px;
+    box-sizing: border-box;
+    background: white;
+    font-size: 15px;
+    line-height: 24px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 16px;
+}
+.trusted_title {
+    margin-top: 100px;
+    margin-left: 400px;
+    font-size: 42px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 1px;
+    width: 547px;
+    height: 96px;
+}
+.logos {
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.pd_r {
+    padding-right: 80px;
+}
+.pd_b {
+    padding-bottom: 16px;
+}
+.full_bicycle {
+    width: 1270px;
+    margin-top: 150px;
+    margin-left: 30px;
+    background: cornflowerblue;
+    display: flex;
+}
+.bicycle_title {
+    margin-top: 80px;
+    width: 540px;
+    height: 120px;
+    font-size: 34px;
+    line-height: 40px;
+}
+.bicycle_text {
+    width: 540px;
+    height: 65px;
+    font-size: 22px;
+    line-height: 32px;
+}
+.sprig_makes {
+    width: 700px;
+    height: 80px;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 180px;
+    margin-left: 350px;
+}
+.sprig_image {
+    margin-top: 55px;
+    margin-left: 260px;
+}
+.sprig_bottom {
+    margin-top: 100px;
+    margin-left: 600px;
+    width: 163px;
+    height: 54px;
+    background: orange;
+    box-sizing: border-box;
+    font-size: 15px;
+    line-height: 24px;
+    border: 1px solid   orange;
+    border-radius: 5px;
+}
+.sprig_bottom:hover {
+    box-shadow: -1px 3px 10px 3px rgba(0,0,0,0.47);
+    -webkit-box-shadow: -1px 3px 10px 3px rgba(0,0,0,0.47);
+    -moz-box-shadow: -1px 3px 10px 3px rgba(0,0,0,0.47);
+}
+.purple {
+    width: 1200px;
+    height: 530px;
+    background: #886dc7;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.purple_title {
+    width: 485px;
+    height: 190px;
+    font-size: 42px;
+    line-height: 48px;
+    padding-top: 100px;
+    padding-left: 580px;
+}
+.purple_text {
+    width: 550px;
+    height: 55px;
+    font-size: 17px;
+    line-height: 28px;
+    padding-top: 40px;
+    padding-left: 580px;
+}
+.purple_img {
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 20px;
+}
