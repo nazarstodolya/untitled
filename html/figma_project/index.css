@@ -4,6 +4,11 @@
 .header {
     height: 1000px;
 }
+.top {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
 .nvg_menu_item {
     font-style: normal;
     font-weight: normal;
@@ -12,15 +17,16 @@
     color: #0B2330;
     margin-right: 10px;
 }
-.top {
-    height: 50px;
-    display: flex;
-    justify-content: space-around;
-}
 .nvg_menu {
     display: flex;
     align-items: center;
     cursor: pointer;
+}
+.nvg_menu_item__sprig {
+    margin-right: 50px;
+}
+.nvg_menu_item__sprig:hover, .nvg_menu_item__product:hover, .nvg_menu_item__customers:hover, .nvg_menu_item__resources:hover, .nvg_menu_item__plans:hover  {
+    text-shadow: -1px -3px 15px rgba(0,0,0,0.59)
 }
 .fa-angle-down {
     margin-left: 10px;
@@ -31,20 +37,6 @@
     column-gap: 24px;
     display: flex;
     cursor: pointer;
-}
-.nvg_menu_item__sprig {
-    margin-right: 50px;
-}
-.nvg_menu_item__sprig:hover, .nvg_menu_item__product:hover, .nvg_menu_item__customers:hover, .nvg_menu_item__resources:hover, .nvg_menu_item__plans:hover  {
-    text-shadow: -1px -3px 15px rgba(0,0,0,0.59)
-}
-.sign:hover, .talk:hover {
-    text-shadow: -1px -3px 15px rgba(0,0,0,0.59)
-}
-.start:hover {
-    box-shadow: -1px 3px 10px 3px rgba(0,0,0,0.47);
-    -webkit-box-shadow: -1px 3px 10px 3px rgba(0,0,0,0.47);
-    -moz-box-shadow: -1px 3px 10px 3px rgba(0,0,0,0.47);
 }
 .start {
     height: 50px;
@@ -57,16 +49,17 @@
 .sign, .talk {
     padding-top: 15px;
 }
+.sign:hover, .talk:hover {
+    text-shadow: -1px -3px 15px rgba(0,0,0,0.59)
+}
+.start:hover {
+    box-shadow: -1px 3px 10px 3px rgba(0,0,0,0.47);
+    -webkit-box-shadow: -1px 3px 10px 3px rgba(0,0,0,0.47);
+    -moz-box-shadow: -1px 3px 10px 3px rgba(0,0,0,0.47);
+}
 .full_content {
     display: flex;
     justify-content: space-between;
-}
-.content_image {
-    position: relative;
-    margin-top: 200px;
-    margin-right: 100px;
-    width: 608px;
-    height: 541px;
 }
 .orange_theme {
     margin-top: 14px;
@@ -75,6 +68,13 @@
     height: 886px;
     background: orange;
     position: absolute;
+}
+.content_image {
+    position: relative;
+    margin-top: 200px;
+    margin-right: 100px;
+    width: 608px;
+    height: 541px;
 }
 .header_title {
     font-size: 60px;
