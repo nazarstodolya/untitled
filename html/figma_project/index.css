@@ -586,6 +586,7 @@
     height: 50px;
     background: orange;
     border-radius: 5px;
+    border: 1px solid orange;
     box-sizing: border-box;
     margin-top: 40px;
     margin-left: 580px;
