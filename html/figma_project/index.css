@@ -472,3 +472,196 @@
     margin-left: 900px;
     margin-top: 150px;
 }
+.study_background {
+    margin-top: 500px;
+    margin-left: 50px;
+    width: 600px;
+    height: 580px;
+    background: #F2EDE7;
+    border-radius: 10px;
+}
+.case_study {
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #375361;
+    padding-top: 70px;
+    padding-left: 80px;
+}
+.study_title {
+    font-size: 24px;
+    line-height: 32px;
+    color: #0B2330;
+    width: 320px;
+    height: 65px;
+}
+.study_text {
+    font-size: 13px;
+    line-height: 28px;
+    color: #0B2330;
+    width: 325px;
+    height: 80px;
+    padding-top: 25px;
+}
+.read_more {
+    width: 120px;
+    height: 35px;
+    box-sizing: border-box;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 35px;
+}
+.read_more:hover {
+    box-shadow: -1px 3px 10px 3px rgba(0,0,0,0.47);
+    -webkit-box-shadow: -1px 3px 10px 3px rgba(0,0,0,0.47);
+    -moz-box-shadow: -1px 3px 10px 3px rgba(0,0,0,0.47);
+}
+.orange_study {
+    width: 650px;
+    height: 580px;
+    background: orange;
+    position: absolute;
+    margin-left: 600px;
+    border-radius: 10px;
+}
+.orange_title {
+    font-size: 26px;
+    line-height: 40px;
+    width: 560px;
+    height: 240px;
+    padding-top: 70px;
+    padding-left: 50px;
+}
+.orange_img {
+    margin-top: 80px;
+    margin-left: 50px;
+    position: absolute;
+}
+.name {
+    position: absolute;
+    font-size: 14px;
+    line-height: 24px;
+    padding-top: 90px;
+    padding-left: 140px;
+}
+.guy_position {
+    font-size: 12px;
+    line-height: 28px;
+    color: #2F3F48;
+    padding-top: 110px;
+    padding-left: 140px;
+}
+.launch_background {
+    margin-top: 250px;
+    width: 1280px;
+    height: 430px;
+    background: #0B2330;
+    position: absolute;
+    border-bottom: 3px solid cornflowerblue;
+}
+.launch_title {
+    font-size: 42px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 610px;
+    height: 100px;
+    padding-top: 50px;
+    padding-left: 350px;
+}
+.title_text {
+    font-size: 17px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 640px;
+    height: 60px;
+    padding-top: 20px;
+    padding-left: 360px;
+}
+.central_button {
+    width: 150px;
+    height: 50px;
+    background: orange;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 40px;
+    margin-left: 580px;
+    cursor: pointer;
+}
+.central_button:hover {
+    box-shadow: -1px 3px 10px 3px rgba(0,0,0,0.47);
+    -webkit-box-shadow: -1px 3px 10px 3px rgba(0,0,0,0.47);
+    -moz-box-shadow: -1px 3px 10px 3px rgba(0,0,0,0.47);
+}
+.sprig_background {
+    margin-top: 79px;
+    width: 1280px;
+    height: 600px;
+    background: #0B2330;
+}
+.sprig_logo {
+    margin-top: 70px;
+    margin-left: 30px;
+}
+.product {
+    padding-top: 70px;
+    padding-left: 260px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F9C600;
+    position: absolute;
+}
+.code {
+    font-size: 16px;
+    line-height: 24px;
+    color: #94A0A4;
+}
+.stories {
+    padding-top: 70px;
+    padding-left: 500px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F9C600;
+    position: absolute;
+}
+.company {
+    padding-top: 70px;
+    padding-left: 770px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F9C600;
+    position: absolute;
+}
+.resources {
+    padding-top: 70px;
+    padding-left: 1000px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F9C600;
+    position: absolute;
+}
+.copyright {
+    font-size: 14px;
+    line-height: 20px;
+    color: #94A0A4;
+    padding-top: 80px;
+}
+.facebook {
+    position: absolute;
+    margin-top: 460px;
+    margin-left: 850px;
+    cursor: pointer;
+}
+.instagram {
+    position: absolute;
+    margin-top: 460px;
+    margin-left: 900px;
+    cursor: pointer;
+}
+.twitter {
+    position: absolute;
+    margin-top: 460px;
+    margin-left: 950px;
+    cursor: pointer;
+}
