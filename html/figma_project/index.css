@@ -459,6 +459,7 @@
     height: 50px;
     background: orange;
     border-radius: 5px;
+    border: 1px solid orange;
     margin-top: 50px;
     cursor: pointer;
 }
