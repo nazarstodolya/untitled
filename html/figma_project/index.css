@@ -412,6 +412,40 @@
     height: 960px;
     background: #F2EDE7;
 }
+.bootstrap_img {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 650px;
+}
+.accord {
+    position: absolute;
+    width: 580px;
+    margin-top: 380px;
+    margin-left: 720px;
+}
+.accordion-body {
+    background: #F2EDE7;
+}
+.accordion-button {
+    text-decoration: none;
+    background: #F2EDE7;
+}
+.title_accord {
+    font-size: 24px;
+    line-height: 32px;
+    color: #0B2330;
+}
+.accord_text1, .accord_text2 {
+    font-size: 17px;
+    line-height: 28px;
+    color: #375361;
+}
+.learn {
+    font-size: 14px;
+    line-height: 28px;
+    color: #0B2330;
+    background: white;
+}
 .features {
     font-size: 12px;
     line-height: 24px;
