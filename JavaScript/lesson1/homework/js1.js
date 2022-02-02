@@ -30,7 +30,7 @@ console.log(1===2);
 let firstName = 'Nazar';
 let middleName = 'Zinoviyovich';
 let lastName = 'Gorodyskyi';
-let person = [lastName,firstName,middleName];
+let person = (lastName + ' ' + firstName + ' ' + middleName);
 console.log(person);
 
 let name = prompt('Мене звати', 'Nazar');
