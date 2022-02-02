@@ -50,5 +50,5 @@ console.log(v);
 //Знайдіть гіпотенузу k за теоремою Піфагора (потрібно використовувати функцію Math.pow (число, ступінь).
 let n = 3;
 let m = 4;
-let k = Math.pow(3,4)
+let k = Math.pow(3, 4);
 console.log(k);
