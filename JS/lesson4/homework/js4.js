@@ -36,7 +36,7 @@ every(mas)//iніціалізація змінної
 //Текст задати через аргумент
 function xxx (text) {
     console.log(`<p>${text}</p>`);
-    document.write(`<p>${text}</p>`);
+    document.write(`<h2>${text}</h2>`);
 }
 xxx('Why JS is so hard?');
 xxx ('Cuz you are not so good as JS')
