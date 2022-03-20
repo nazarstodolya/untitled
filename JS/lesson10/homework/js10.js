@@ -34,15 +34,3 @@ function someMenu() {
         menuInfo.style.display = "block";
     }
 }
-
-//Создать список комментариев, пример объекта коментария -
-//{title : 'lorem', body:'lorem ipsum dolo sit ameti'}.
-//Вывести список комментариев в документ, каждый в своем блоке
-//Добавьте каждому комментарию по кнопке для сворачивания его
-//body.
-let comments = [
-    {name: 'lorem', body: 'lorem ipsum dolo sit ameti'},
-    {name: 'lorem', body: 'lorem ipsum dolo sit ameti'},
-    {name: 'lorem', body: 'lorem ipsum dolo sit ameti'},
-    {name: 'lorem', body: 'lorem ipsum dolo sit ameti'},
-];
