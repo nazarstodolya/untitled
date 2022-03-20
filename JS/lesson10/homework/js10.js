@@ -24,3 +24,25 @@ document.getElementById('button1').onclick = function () {
     }
 }
 
+//Создайте меню, которое раскрывается/сворачивается при клике
+function someMenu() {
+    let menuInfo = document.getElementById('menu-info');
+    if (menuInfo.style.display == "block") {
+        menuInfo.style.display = "none";
+    }
+    else {
+        menuInfo.style.display = "block";
+    }
+}
+
+//Создать список комментариев, пример объекта коментария -
+//{title : 'lorem', body:'lorem ipsum dolo sit ameti'}.
+//Вывести список комментариев в документ, каждый в своем блоке
+//Добавьте каждому комментарию по кнопке для сворачивания его
+//body.
+let comments = [
+    {name: 'lorem', body: 'lorem ipsum dolo sit ameti'},
+    {name: 'lorem', body: 'lorem ipsum dolo sit ameti'},
+    {name: 'lorem', body: 'lorem ipsum dolo sit ameti'},
+    {name: 'lorem', body: 'lorem ipsum dolo sit ameti'},
+];
